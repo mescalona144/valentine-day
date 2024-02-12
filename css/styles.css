@@ -78,6 +78,16 @@ body{
     left: 75px;
     color: #003049;
 }
+.text1{
+    position: absolute;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 28px;
+    text-align: center;
+    line-height: 25px;
+    top: 10px;
+    left: 75px;
+    color: #f70a0a;
+}
 .heart{
     background-color: #d62828;
     display: inline-block;
@@ -193,7 +203,7 @@ body{
 .shadow {
     position: absolute;
     width: 330px;
-    height: 25px;
+    height: 45px;
     border-radius:50%;
     background-color: rgba(0,0,0,0.3);
     top:265px;
