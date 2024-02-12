@@ -119,7 +119,7 @@ body{
         opacity: 0.5;
     }
 }
-.one, .two, .three, .four, .five{
+.one, .two, .three, .four, .five, .six{
     background-color: red;
     display: inline-block;
     height: 10px;
@@ -128,7 +128,7 @@ body{
     transform: rotate(-45deg);
     top: 50px;
 }
-.one:before, .one:after, .two:before, .two:after, .three:before, .three:after, .four:before, .four:after, .five:before, .five:after {
+.one:before, .one:after, .two:before, .two:after, .three:before, .three:after, .four:before, .four:after, .five:before, .five:after, .six:before, .six:after {
     content: "";
     position: absolute;
     background-color: red;
@@ -136,11 +136,11 @@ body{
     width: 10px;
     height: 10px;
 }
-.one:before, .two:before, .three:before, .four:before, .five:before{
+.one:before, .two:before, .three:before, .four:before, .five:before, .six:before{
     top: -5px;
     left: 0;
 }
-.one:after, .two:after, .three:after, .four:after, .five:after{
+.one:after, .two:after, .three:after, .four:after, .five:after, .six:after{
     left: 5px;
     top: 0;
 }
@@ -153,7 +153,7 @@ body{
     animation: heart 2s ease-out infinite;
 }
 .three{
-    left: 5cap;
+    left: 50px;
     animation: heart 2.5s ease-out infinite;
 }
 .four{
@@ -162,6 +162,10 @@ body{
 }
 .five{
     left: 90px;
+    animation: heart 1.7s ease-out infinite;
+}
+.six{
+    left: 110px;
     animation: heart 1.7s ease-out infinite;
 }
 .front{
